@@ -1,0 +1,47 @@
+
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+ <link href="C:\Users\yaswanth\Downloads\servers\src\main\resources\static\styles.css" rel="stylesheet">
+    <title>Access Your Data Here</title>   
+</head>
+<body>    
+<div class="main-body">
+    <div class="flex">
+    
+        <H2>Access Your Data Here</H2> 
+        <input type="text" class="form__input" name ='delid' id="forget" placeholder="Enter Id to search server "  />
+        <br>
+            <button class="button" role="button" id="get" >GET</button>
+        <br>
+            
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br>
+      <label for="id">ID:</label>
+    <input type="number" id="id" name="id"><br>
+<label for="language">Language:</label>
+    <input type="text" id="lang" name="lang"><br>
+<label for="framework">FrameWork:</label>
+    <input type="text" id="frame" name="frame"><br>
+            <button class="button" role="button" id="put" >PUT</button>
+            <br>
+            <input type="text" class="form__input" name ='delid' id="delid" placeholder="Enter Id to Delete "  />
+<br>
+            <button class="button" role="button" id="del" >DELETE</button>
+            <br>
+            <input type="text" class="form__input" name ='getid' id="getname" placeholder="Enter name to Get the server "  />
+            <br>
+            <button class="button" role="button" id="getdata" >GET_Data</button>
+            <br>
+            Response:
+            <H2 id="out" style="overflow:scroll"></H2>
+           <!--- <button class="button"style="allign: centre" role="button" id="cl">Clear</button>   -->
+     
+   <script src="backend.js"></script>
+</div>
+</div>  
+</body>
+</html>
+
