@@ -1,5 +1,5 @@
 # spring_webui
-used an JS fetch to request spring endpoint by GET,PUT,DELETE HTTP requests.
+used  JS fetch to request springboot by GET,PUT,DELETE HTTP requests.
 TASK_4
 Front End
 
